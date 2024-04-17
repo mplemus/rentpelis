@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: max-content;
+    border: solid 1px rgb(43, 43, 43);
+    /* width: 80vw; */
+    margin: auto;
+    border-radius: 1.5rem;
+    background-color: rgba(0,0,0,0.85);
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+table {
+    color: #fff;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+/* thead {
+    background: rgba(243, 140, 210, 0.4);
+} */
+
+th {
+    padding: 20px 15px ;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+th .enviar{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+th .eliminar{
+    padding: 10px 20px;
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+td {
+    padding: 15px;
+    border-bottom: solid 1px rgb(0, 255, 0);
+}
+
+tbody tr {
+    cursor:pointer;
+}
+
+.btneditar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d7e1f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btnconsulta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
